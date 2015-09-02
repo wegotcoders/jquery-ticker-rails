@@ -10,9 +10,9 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
-  s.authors = ["Dan Garland"]
+  s.authors = ["Dan Garland", "Glen Smith"]
   s.date = "2015-09-02"
-  s.description = "TODO: longer description of your gem"
+  s.description = "A gem that packages the assets for Jquery News Ticker http://www.jquerynewsticker.com/"
   s.email = "dan@dangarland.co.uk"
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -25,7 +25,9 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "app/assets/javascripts/demo.js",
     "app/assets/javascripts/jquery-ticker.js",
+    "jquery-ticker-rails.gemspec",
     "lib/jquery-ticker-rails.rb",
     "lib/jquery-ticker-rails/rails.rb",
     "lib/jquery-ticker-rails/rails/engine.rb",
@@ -81,7 +83,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/dmgarland/jquery-ticker-rails"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.3"
-  s.summary = "TODO: one-line summary of your gem"
+  s.summary = "A Rails sprockets-compatible gem to package Jquery News Ticker"
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

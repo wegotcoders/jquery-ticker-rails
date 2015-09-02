@@ -17,10 +17,10 @@ Jeweler::Tasks.new do |gem|
   gem.name = "jquery-ticker-rails"
   gem.homepage = "http://github.com/dmgarland/jquery-ticker-rails"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A Rails sprockets-compatible gem to package Jquery News Ticker}
+  gem.description = %Q{A gem that packages the assets for Jquery News Ticker http://www.jquerynewsticker.com/}
   gem.email = "dan@dangarland.co.uk"
-  gem.authors = ["Dan Garland"]
+  gem.authors = ["Dan Garland", "Glen Smith"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
