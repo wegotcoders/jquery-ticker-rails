@@ -50,3 +50,4 @@ pkg
 
 .floo
 .flooignore
+Gemfile.lock
