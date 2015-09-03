@@ -51,3 +51,6 @@ pkg
 .floo
 .flooignore
 Gemfile.lock
+*.log
+*.cache
+*.pid

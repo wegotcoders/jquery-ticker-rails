@@ -1,0 +1,7 @@
+<% item1 = { text: 'This is the 1st latest news item', url: "not a real url" } %>
+<% item2 = { text: 'This is the 2nd latest news item', url: "not a real url" } %>
+
+<% ticker_items = [item1, item2] %>
+<% content_path = 'item_show_path' %>
+
+<%= jquery_ticker(ticker_items) %>
