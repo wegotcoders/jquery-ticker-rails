@@ -12,5 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require jquery-ticker
+//= require jquery.ticker
 //= require_tree .
