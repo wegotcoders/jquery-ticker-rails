@@ -1,6 +1,6 @@
 = jquery-ticker-rails
 
-Description goes here.
+A rails sprokets compatible gem that wraps jquery-ticker
 
 == Contributing to jquery-ticker-rails
  
